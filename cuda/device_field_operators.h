@@ -31,6 +31,7 @@
 
 #ifndef DEBUG
 #define cu_fun __host__ __device__
+#include <cstring>
 #else
 #define cu_fun
 #include <assert.h>
